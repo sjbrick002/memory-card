@@ -5,7 +5,7 @@ import Card from "./Components/Card";
 function App() {
   return (
     <div className="App">
-      <Scoreboard/>
+      <Scoreboard score={0} bestScore={0}/>
       <Card/>
     </div>
   );

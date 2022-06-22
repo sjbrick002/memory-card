@@ -15,8 +15,8 @@ function BestScore(props) {
 export default function Scoreboard(props) {
     return (
         <div>
-            <Score score={0}/>
-            <BestScore score={3}/>
+            <Score score={props.score}/>
+            <BestScore score={props.bestScore}/>
         </div>
     );
 };
