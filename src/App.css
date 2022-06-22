@@ -1,0 +1,29 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 20px;
+    font-size: 1.3em;
+}
+
+h1 {
+    margin: 0;
+}
+
+.card-gallery {
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
