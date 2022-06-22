@@ -95,14 +95,19 @@ function App() {
     ]
   );
 
-  function shuffleCountries() {
+  function updateScore() {
+    setScore(score + 1);
+    if (bestScore < score + 1) {
+      setBestScore(score + 1);
+    };
     setCountries(shuffleArray(countries));
   };
 
-  const flagGallery = countries.map(country => <Card key={country.id} onClick={shuffleCountries} imageSrc={country.imageSrc} imageAlt={country.imageAlt} description={country.description}/>)
+  const flagGallery = countries.map(country => <Card key={country.id} onClick={updateScore} imageSrc={country.imageSrc} imageAlt={country.imageAlt} description={country.description}/>);
   
   return (
     <div className="App">
+      <h1>Flags of South America</h1>
       <Scoreboard score={score} bestScore={bestScore}/>
       {flagGallery}
     </div>
