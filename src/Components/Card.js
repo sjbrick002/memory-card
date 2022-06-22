@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import argentina from "./Flag_of_Argentina.svg";
-import bolivia from "./Flag_of_Bolivia.svg";
-import brazil from "./Flag_of_Brazil.svg";
-import chile from "./Flag_of_Chile.svg";
-import colombia from "./Flag_of_Colombia.svg";
-import ecuador from "./Flag_of_Ecuador.svg";
-import guyana from "./Flag_of_Guyana.svg";
-import paraguay from "./Flag_of_Paraguay.svg";
-import peru from "./Flag_of_Peru.svg";
-import suriname from "./Flag_of_Suriname.svg";
-import uruguay from "./Flag_of_Uruguay.svg";
-import venezuela from "./Flag_of_Venezuela.svg";
+import argentina from "../images/Flag_of_Argentina.svg";
+import bolivia from "../images/Flag_of_Bolivia.svg";
+import brazil from "../images/Flag_of_Brazil.svg";
+import chile from "../images/Flag_of_Chile.svg";
+import colombia from "../images/Flag_of_Colombia.svg";
+import ecuador from "../images/Flag_of_Ecuador.svg";
+import guyana from "../images/Flag_of_Guyana.svg";
+import paraguay from "../images/Flag_of_Paraguay.svg";
+import peru from "../images/Flag_of_Peru.svg";
+import suriname from "../images/Flag_of_Suriname.svg";
+import uruguay from "../images/Flag_of_Uruguay.svg";
+import venezuela from "../images/Flag_of_Venezuela.svg";
 
 export default function Card(props) {
     let [countries, setCountries] = useState(
